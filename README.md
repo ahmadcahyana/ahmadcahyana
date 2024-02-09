@@ -1,38 +1,14 @@
 # Profile
----
-Welcome to my professional space. I am **Ahmad Cahyana**, currently leading the development team at **[Chronicle](https://www.chronicle.rip)**. My commitment to the craft of coding is matched only by my love for poetry, pseudoscience, and cinematic storytelling.
+I am **Ahmad Cahyana**, currently leading the development team at **[Chronicle](https://www.chronicle.rip)**. My commitment to the craft of coding is matched only by my love for poetry, pseudoscience, and cinematic storytelling.
 
 In my personal life, I am the partner of my incredible wife, **Yunita Nurhabibah**, and the father to our cherished son, **Muhammad Rumi Avicenna**. They are the cornerstone of my life, providing daily motivation and happiness.
 
 I eagerly anticipate the opportunity to collaborate with you. Together, we will harness the strength of technology and collective effort to realize our ambitions.
 
 ## RECENT ACTIVITIES
----
 Right now, I am working as a Backend Team Lead at Chronicle, Pte, Ltd. My responsibility is leading the backend development team and making key decisions related to server-side architecture, database design, and integration with other services.
 
-## TECHNOLOGY SUMMARY
----
-| Progamming Language | Frameworks | Source Code Control | Databases |
-| ----------- | ----------- | ----------- | ----------- |
-| Python | Title |
-| C# | Text |
-Programming Languages Frameworks
-Source Code Control Databases
-No-SQL Operating System
-: Python, C#, PHP, Java, JavaScript
-: Django, Flask, .Net Core, Laravel, CodeIgniter, Spring, Vue : Git and TFS
-: MySQL, PostgreSQL, MS SQL Server.
-: MongoDB, Redis
-: Linux, Mac OS X and Windows.
-EDUCATION
-STMIK NUSA MANDIRI, Jakarta
-Bachelor of Computer Engineering, Major in Information Technology, 2016 GPA: 3.39
-BINA SARANA INFORMATIKA, Jakarta
-Bachelor of Computer Engineering, Major in Information Technology, 2015 GPA: 3.42
-
-
 ## Professional Experience
----
 ### [Chronicle Rip Pty Ltd.](https://chronicle.rip)
 #### **Backend Team Lead**
 September 2023 – Present 
