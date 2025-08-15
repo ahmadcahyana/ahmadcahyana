@@ -59,7 +59,7 @@ export const cvData: CvDataType = {
   name: 'Ahmad Cahyana',
   contact: {
     address: 'Kp Maja No 25 C RT 6 RW 2, Kel. Pegadungan, Kec. Kalideres, Jakarta Barat 11830',
-    phone: '08131-67-666-78',
+    phone: '+62-8131-67-666-78',
     email: 'ahmadcahyana@outlook.com',
   },
   summary: 'Highly skilled and results-oriented Backend and Fullstack Engineer with 7+ years of progressive experience in software development, including recent leadership roles. Proven ability to develop robust B2B, B2G, and B2C APIs and applications, manage full project lifecycles from design to deployment, and lead small development teams. Recognized for strong programming abilities in multiple languages, keen attention to detail, and a consistent drive to exceed expectations. Experienced in designing migration plans, technical specifications, and collaborating extensively with business analysts, quality assurance, and end-users.',
