@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  nextjs-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    container_name: ahmadcahyana-dev
+    ports:
+      - "9002:9002"
+    volumes:
+      # Mount source code for hot reloading
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_TELEMETRY_DISABLED=1
+      - WATCHPACK_POLLING=true
+    env_file:
+      - .env
+    networks:
+      - ahmadcahyana-network
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+  # Optional: Add a development database if needed
+  # postgres-dev:
+  #   image: postgres:15-alpine
+  #   container_name: ahmadcahyana-postgres-dev
+  #   environment:
+  #     POSTGRES_DB: ahmadcahyana_dev
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: password
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_dev_data:/var/lib/postgresql/data
+  #   networks:
+  #     - ahmadcahyana-network
+
+networks:
+  ahmadcahyana-network:
+    driver: bridge
+
+# volumes:
+#   postgres_dev_data:
